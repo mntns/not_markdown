@@ -1,6 +1,6 @@
 # NotMarkdown
 
-**TODO: Add description**
+A simple parser which implements the message formatting syntax [used by Slack](https://get.slack.help/hc/en-us/articles/202288908-Formatting-your-messages).
 
 ## Installation
 
@@ -18,3 +18,10 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
           [applications: [:not_markdown]]
         end
 
+## Usage
+
+*coughs*
+
+```elixir
+NotMarkdown.to_html(text)
+```
